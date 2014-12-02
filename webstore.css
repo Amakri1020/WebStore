@@ -1,0 +1,19 @@
+#circle { 
+	border-radius:50% 50% 50% 50%;
+	width:300px;
+	height:300px;
+}
+
+	/* the actual CSS to make them evenly spaced: */
+#container {
+		display: flex;
+		justify-content: space-between;
+}
+
+#container div:first-child {
+		border-left: 0;
+}
+
+#container div:last-child {
+		border-right: 0;
+}

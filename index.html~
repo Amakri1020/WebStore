@@ -2,37 +2,16 @@
 <html>
 
 <head>
-  <title>Selling McGill Buildings</title>
-  <style>
-  #circle{ border-radius:50% 50% 50% 50%;
-    width:300px;
-    height:300px;}
-    /* the actual CSS to make them evenly spaced: */
-
-#container {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-/* just some presentational styles: */
-
-#container div:first-child {
-    border-left: 0;
-}
-
-#container div:last-child {
-    border-right: 0;
-}
-  </style>
-  
+	<link rel="stylesheet" type="text/css" href="webstore.css">
+	<title>Selling McGill Buildings</title>
 </head>
 
 <body>
+<<<<<<< HEAD
 <h1 style="text-align:center">Selling McGill Buildings</h1>
 <h2 style="color:red">Comp 206</h2>
+<a href="index.html">Home Page</a>
 <a href="login.html">Login Page</a>
-<a href="register.html" target="_blank">Registration Page</a>
 <a href="catalogue.html">Web Catalogue</a>
 <hr>
 
@@ -59,6 +38,32 @@
 We sell McGill Buildings for profit $$$$
 
 </p>
+=======
+	<h1 style="text-align:center">Selling McGill Buildings</h1>
+	<h2 style="color:red">Comp 206</h2>
+	<a href="http://www.w3schools.com/html/" target="_blank">Login Page</a>
+	<a href="http://www.w3schools.com/html/" target="_blank">Registration Page</a>
+	<a href="http://www.w3schools.com/html/" target="_blank">Web Catalogue</a>
+	<hr>
+
+	<div id="container">
+		<div class="image1"><a href="https://www.mcgill.ca">
+			<img src="http://www.mcgill.ca/arts/files/arts/images/arts_building_handbook.jpg" alt="arts building" id="circle">
+		</a></div>
+		<div class="image2"><a href="https://www.mcgill.ca">
+			<img src="http://www.imtl.org/image/big/mcGill_Lorne-M.-Trottier.jpg" alt="arts building" id="circle">
+		</a></div>
+		<div class="image3"><a href="https://www.mcgill.ca">
+			<img src="http://www.mcgill.ca/engineering/files/engineering/images/mcdonald_engineering_building_pano_1.jpg" alt="arts building" id="circle">
+		</a></div>
+		<span class="stretch"></span>
+	</div>
+
+	<p title = "About us">
+		We sell McGill Buildings for profit $$$$
+
+	</p>
+>>>>>>> 1dfc3a48115b050f11f82daa966a3d4a69bcd4f5
 
 </body>
 
