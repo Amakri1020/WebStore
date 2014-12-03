@@ -1,3 +1,13 @@
+h1 {
+	text-align: center;
+	font-family: 'Arvo', serif;
+	text-shadow: 1px 1px 1px grey;
+}
+
+p {
+	font-family: 'Lato', serif;
+}
+
 #circle { 
 	border-radius:50% 50% 50% 50%;
 	width:300px;
@@ -14,6 +24,34 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+#menu {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu-url {
+    float: left;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.2em 0.6em;
+    border-right: 1px solid white;
+}
+
+.menu-url:hover {
+    background-color: grey;
+}
+
+ .menu-item {
+    display: inline;
+    font-family: 'Lato', serif;
+}
+
 
 /*.round-image {
 	border: 5px solid black;
