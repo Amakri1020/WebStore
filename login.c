@@ -7,13 +7,14 @@ unsigned int contentlength;
 char *postdata = NULL;
 
 int main(void){
-	if (CONTENT_LENGTH != NULL) {
+	if (atoi(CONTENT_LENGTH)>=20) {
 		contentlength = atoi(CONTENT_LENGTH);
 		if((postdata = malloc(sizeof(char) * contentlength + 1)) != NULL){
 			if(((fread(postdata, sizeof(char), contentlength, stdin))) == contentlength){
 				postdata[contentlength] = '\0';
 				printf("Content-Type:text/html\n\n");
 				printf("<html>");
+				printf("%d", contentlength);
 				printf("%s", postdata);
 				printf("</html>");
 			}
@@ -22,6 +23,7 @@ int main(void){
 	else{
 		printf("Content-Type:text/html\n\n");
 		printf("<html>");
+		printf("%d", contentlength);
 		printf("Error!");
 		printf("</html>");
 	}
