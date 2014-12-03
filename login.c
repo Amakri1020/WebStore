@@ -19,5 +19,11 @@ int main(void){
 			}
 		}
 	}
+	else{
+		printf("Content-Type:text/html\n\n");
+		printf("<html>");
+		printf("Error!");
+		printf("</html>");
+	}
 	return 0;
 }
