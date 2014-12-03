@@ -7,7 +7,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
 <h1 style="text-align:center">Selling McGill Buildings</h1>
 <h2 style="color:red">Comp 206</h2>
 <a href="index.html">Home Page</a>
@@ -38,7 +37,6 @@
 We sell McGill Buildings for profit $$$$
 
 </p>
-=======
 	<h1 style="text-align:center">Selling McGill Buildings</h1>
 	<h2 style="color:red">Comp 206</h2>
 	<a href="http://www.w3schools.com/html/" target="_blank">Login Page</a>
@@ -63,7 +61,6 @@ We sell McGill Buildings for profit $$$$
 		We sell McGill Buildings for profit $$$$
 
 	</p>
->>>>>>> 1dfc3a48115b050f11f82daa966a3d4a69bcd4f5
 
 </body>
 
