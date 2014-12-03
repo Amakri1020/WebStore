@@ -4,16 +4,29 @@
 	height:300px;
 }
 
-	/* the actual CSS to make them evenly spaced: */
-#container {
-		display: flex;
-		justify-content: space-between;
+#introduction {
+	width: 50%;
+	margin: 0 auto;
 }
 
-#container div:first-child {
-		border-left: 0;
+/* the actual CSS to make them evenly spaced: */
+#container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*.round-image {
+	border: 5px solid black;
+}*/
+
+/*#container div:first-child {
+	border-left: 0;
+	padding:1px;
+	border:1px solid #021a40;
 }
 
 #container div:last-child {
-		border-right: 0;
-}
+	border-right: 0;
+	padding:1px;
+	border:1px solid #021a40;
+}*/
