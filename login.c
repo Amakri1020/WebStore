@@ -40,11 +40,21 @@ int main(void){
 		if(strcmp(id_Data,id) == 0 && strcmp(password_Data,password) == 0){
 			printf("Login!");
 			printf("</html>");
+			if(fseek(loggedIn,-1,SEEK_CUR)==0){
+				fprintf(loggedIn,",%s",id);
+			}
+			else{
+				fprintf(loggedIn,"%s",id);
+			}
+			fclose(member);
+			fclose(loggedIn);
 			return 0;	
 		}
 	}		
 	printf("Login fail!");
 	printf("</html>");
+	fclose(member);
+	fclose(loggedIn);
 
 	return 0;
 }
