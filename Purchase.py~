@@ -7,7 +7,7 @@ import csv
 form = cgi.FieldStorage()
 bill_total = 0
 online_users = []
-logged_in = 0
+logged_in = 'false'
 
 ##Load all users currently logged in into online_users##
 f = open('LoggedIn.csv')
@@ -33,10 +33,10 @@ f.close()
 
 for user in online_users:
     if form.getvalue('username') == user:
-        logged_in = 1
+        logged_in = 'true'
         
 
-if logged_in == 1:
+if logged_in == 'true':
     print "Content-type:text/html\r\n\r\n"
     print "<html>"
     print "<head>"
