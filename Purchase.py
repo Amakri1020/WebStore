@@ -7,7 +7,7 @@ import csv
 form = cgi.FieldStorage()
 bill_total = 0
 online_users = []
-logged_in = 1
+logged_in = 0
 
 ##Load all users currently logged in into online_users##
 f = open('LoggedIn.csv')
@@ -52,14 +52,15 @@ if logged_in == 1:
             if(q > int(quantity[i])):
                 print "Unfortunately, we only have %s of %s left in stock. We apologize for any inconvenience.<br>"%(quantity[i],inventory[i])
             else:
-                print "Item: %s     Quantity: %s     Price: %s<br>" %(inventory[i],q,price[i]*q)
+                print "Item: %s     Quantity: %s     Price: #%s CAD<br>" %(inventory[i],q,price[i]*q)
                 bill_total += price[i]*q
+                quantity[i] = str(int(quantity[i])-q)
     if bill_total == 0:
         print "No items selected!"
     else:
-        print "Total price:  $ %s" % (bill_total)
-#    print "<li class="menu-item"><a class="menu-url" href="index.html">Back to Homepage</a></li>"
-#    print "<li class="menu-item"><a class="menu-url" href="catalogue.html">Back to Catalogue</a></li>"
+        print "Total price:  $ %s<br>" % (bill_total)
+    print "<a href='index.html'>Back to Homepage</a>"
+    print "<a href='catalogue.html'>Back to Catalogue</a>"
     print "</body>"
     print "</html>"
     
@@ -82,8 +83,8 @@ else:
     print "<title>Error Page</title>"
     print "</head>"
     print "<body>"
-    print "You must log in to purchase items!"
-#    print "<li class="menu-item"><a class="menu-url" href="catalogue.html">Back to Catalogue</a></li>"
+    print "You must log in to purchase items!<br>"
+    print "<a href='catalogue.html'>Back to Catalogue</a>"
     print "</body>"
     print "</html>"
     
