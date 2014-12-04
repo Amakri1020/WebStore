@@ -30,10 +30,22 @@ for i in range(len(inventory)):
     price[i] = int(price[i])
     print "Item: %s | Quantity: %s | Price: %s" % (inventory[i],q,price[i]*q)
     total += price[i]*q
-    #quantity[i] = quantity[i] - q
-
+    quantity[i] = str(int(quantity[i]) - q)
     
 print "\nTotal Price: $%s" %(total)
+
+data = ["Trottier,%s,7500000"%quantity[0],
+"McConnell,%s,2000000"%quantity[1],
+"MacDonald,%s,1000000"%quantity[2],
+"Leacock,%s,250000"%quantity[3],
+"McIntyre,%s,45000"%quantity[4],
+"Arts,%s,20"%quantity[5]]
+print data
+
+with open("Inventory.csv","wb") as csv_file:
+    writer = csv.writer(csv_file)
+    for line in data:
+        writer.writerow(line.split(","))
     
     
     
