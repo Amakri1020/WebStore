@@ -31,7 +31,7 @@ open (MEMBEROPEN, "<Members.csv") || ErrorOpen('csv');
 @csv = <MEMBEROPEN>;
 close (MEMBEROPEN);
 foreach $row (@csv) {
-	if ($row =~ /\Q,$user/) {
+	if ($row =~ /,$user,/) {
 		ErrorUsernameExists();
 	}
 }
