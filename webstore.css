@@ -13,9 +13,20 @@ p {
 	height:300px;
 }
 
-#introduction {
+#introduction1 {
 	font-size: 1.3em;
 	width: 50%;
+	margin: 0 auto;
+	border: 1px solid black ;
+	padding: 17px;
+}
+#introduction2 {
+	font-size: 1.2em;
+	width: 50%;
+	margin: 0 auto;
+}
+.page-footer-hr {
+	width: 65%;
 	margin: 0 auto;
 }
 
@@ -107,4 +118,4 @@ label {
 	border-right: 0;
 	padding:1px;
 	border:1px solid #021a40;
-}*/
+	}*/
