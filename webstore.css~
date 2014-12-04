@@ -69,12 +69,6 @@ p {
 	font-family: 'Lato', serif;
 }
 
-.catalogue {
-	font-size: 1.5em;
-	color: grey;
-	font-family: 'Lato', serif;
-}
-
 .section {
     border: 2px solid;
     /*border-radius: 20px; if we want to make it rounded*/
