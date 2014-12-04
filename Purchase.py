@@ -4,11 +4,10 @@ import os
 import cgi,cgitb
 import csv
 
-print "Content-type:text/html\n\n"
 form = cgi.FieldStorage()
 bill_total = 0
 online_users = []
-logged_in = 0
+logged_in = 1
 
 ##Load all users currently logged in into online_users##
 f = open('LoggedIn.csv')
@@ -50,8 +49,8 @@ if logged_in == 1:
         if (form.getvalue('checkbox'+str(i)) and form.getvalue('input_quantity'+str(i))!=None):
             q = form.getvalue('input_quantity'+str(i))
             q=int(q)
-            if(q > quantity[i]):
-                print "Unfortunately, we only have %s of %s left in stock. We apologize for any inconvenience."%(quantity[i],inventory[i])
+            if(q > int(quantity[i])):
+                print "Unfortunately, we only have %s of %s left in stock. We apologize for any inconvenience.<br>"%(quantity[i],inventory[i])
             else:
                 print "Item: %s     Quantity: %s     Price: %s<br>" %(inventory[i],q,price[i]*q)
                 bill_total += price[i]*q
@@ -72,9 +71,9 @@ if logged_in == 1:
 "Arts,%s,20"%quantity[5]]
     
     with open("Inventory.csv","wb") as csv_file:
-    writer = csv.writer(csv_file)
-    for line in data:
-        writer.writerow(line.split(","))
+        writer = csv.writer(csv_file)
+        for line in data:
+            writer.writerow(line.split(","))
     
 else:
     print "Content-type:text/html\r\n\r\n"
