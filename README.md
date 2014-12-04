@@ -1,7 +1,8 @@
 WebStore
 ========
-Alex Makrigiorgos 260573080  
-Sangmoon Hwang 260569675  
-Shivan Kaul Sahib 260512593  
 
-COMP 206 Group Assignment 4/5 repository.
+A small web project where we sell McGill's buildings to prospective clients. Written in Python, C, Perl, HTML/CSS, CGI.  
+
+Alex Makrigiorgos    
+Sangmoon Hwang    
+Shivan Kaul Sahib  
