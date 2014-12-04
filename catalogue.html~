@@ -36,7 +36,13 @@
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription</p>
-	<form action="Purchase.py" method = "post" target="_blank" >
+<<<<<<< HEAD
+	<form action="Purchase.py" method = "post" target="_blank">
+	<input type="hidden" name = "username" value="">
+=======
+	<form action="">
+	<input type="hidden" name="username" value="">
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	<input style="float:right" type="checkbox" name="checkbox1" value="Trottier">
 	<a href="http://www.techwyse.com/blog/wp-content/uploads/2010/09/add-to-cart-button.png">
 	            <img style="float:right;width:150px;height:150px" src="http://www.techwyse.com/blog/wp-content/uploads/2010/09/add-to-cart-button.png">
@@ -44,7 +50,12 @@
 	<p> Price:  $7,500,000.00 CAD </p>
 	Quantity Desired:
 	<input type="text" name="quantity1" value="">
+<<<<<<< HEAD
 	
+=======
+	<input type="hidden" name="username" value="">
+	</form>
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	
 	<br><br><br><br>
 	
@@ -57,7 +68,12 @@
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription</p>
+<<<<<<< HEAD
 	
+=======
+	<form action="">
+	<input type="hidden" name="username" value="">
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	<input style="float:right" type="checkbox" name="checkbox2" value="McConnell">
 	
 	<a href="http://www.techwyse.com/blog/wp-content/uploads/2010/09/add-to-cart-button.png">
@@ -66,7 +82,12 @@
 	<p> Price:  $2,000,000.00 CAD </p>
 	Quantity Desired:
 	<input type="text" name="quantity2" value="">
+<<<<<<< HEAD
 	
+=======
+	<input type="hidden" name="username" value="">
+	</form>
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	
 	<br><br><br><br>
 	
@@ -79,7 +100,12 @@
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription</p>
+<<<<<<< HEAD
 	
+=======
+	<form action="">
+	<input type="hidden" name="username" value="">
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	<input style="float:right" type="checkbox" name="checkbox3" value="MacDonald">
 	
 	<a href="http://www.techwyse.com/blog/wp-content/uploads/2010/09/add-to-cart-button.png">
@@ -88,7 +114,12 @@
 	<p> Price:  $1,000,000.00 CAD </p>
 	Quantity Desired:
 	<input type="text" name="quantity3" value="">
+<<<<<<< HEAD
 	
+=======
+	<input type="hidden" name="username" value="">
+	</form>
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	
 	<br><br><br><br>
 	
@@ -101,7 +132,12 @@
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription</p>
+<<<<<<< HEAD
 	
+=======
+	<form action="">
+	<input type="hidden" name="username" value="">
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	<input style="float:right" type="checkbox" name="checkbox4" value="Leacock">
 	
 	<a href="http://www.techwyse.com/blog/wp-content/uploads/2010/09/add-to-cart-button.png">
@@ -110,7 +146,12 @@
 	<p> Price:  $250,000.00 CAD </p>
 	Quantity Desired:
 	<input type="text" name="quantity4" value="">
+<<<<<<< HEAD
 	
+=======
+	<input type="hidden" name="username" value="">
+	</form>
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	
 	<br><br><br><br>
 	
@@ -123,7 +164,12 @@
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription</p>
+<<<<<<< HEAD
 	
+=======
+	<form action="">
+	<input type="hidden" name="username" value="">
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	<input style="float:right" type="checkbox" name="checkbox5" value="McIntyre">
 	
 	<a href="http://www.techwyse.com/blog/wp-content/uploads/2010/09/add-to-cart-button.png">
@@ -132,7 +178,12 @@
 	<p> Price:  $45,000.00 CAD </p>
 	Quantity Desired:
 	<input type="text" name="quantity5" value="">
+<<<<<<< HEAD
 	
+=======
+	<input type="hidden" name="username" value="">
+	</form>
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	
 	<br><br><br><br>
 	
@@ -145,6 +196,11 @@
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription
 	DecriptionDecriptionDecriptionDecriptionDecriptionDescription</p>
+<<<<<<< HEAD
+=======
+	<form action="">
+	<input type="hidden" name="username" value="">
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	<input style="float:right" type="checkbox" name="checkbox6" value="Arts">
 	<a href="http://www.techwyse.com/blog/wp-content/uploads/2010/09/add-to-cart-button.png">
 	            <img style="float:right;width:150px;height:150px" src="http://www.techwyse.com/blog/wp-content/uploads/2010/09/add-to-cart-button.png">
@@ -152,10 +208,20 @@
 	<p> Price:  $20.00 CAD (Special Offer) </p>
 	Quantity Desired:
 	<input type="text" name="quantity6" value="">
+<<<<<<< HEAD
+=======
+	<input type="hidden" name="username" value="">
+	</form>
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	<br><br>
 	
 	<div style = "text-align:center; color:teal">
 	    <input type = "submit" style = "color:green" value = "Confirm Purchases">
+<<<<<<< HEAD
+=======
+	    <input type="hidden" name="username" value="">
+	    </form>
+>>>>>>> 5cce404326ead943c5b264143478a47c0ee712ee
 	</div>
 	</form>
 	
