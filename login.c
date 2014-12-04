@@ -34,7 +34,7 @@ int main(void){
 	while((line=fgets(buffer,sizeof(buffer),member))!=NULL){
 		id_Data = strtok(line,",");
 		id_Data = strtok(NULL,",");
-		password_Data = strtok(NULL,"");
+		password_Data = strtok(NULL,"\n");
 		printf("%s and %s", id_Data, password_Data);
 		printf("WHat?");	
 		if(strcmp(id_Data,id) == 0 && strcmp(password_Data,password) == 0){
