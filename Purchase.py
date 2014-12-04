@@ -4,11 +4,10 @@ import os
 import cgi,cgitb
 import csv
 
-print "Content-type:text/html\n\n"
 form = cgi.FieldStorage()
 bill_total = 0
 online_users = []
-logged_in = 0
+logged_in = 1
 
 ##Load all users currently logged in into online_users##
 f = open('LoggedIn.csv')
@@ -46,13 +45,14 @@ if logged_in == 1:
     print "<body>"
     for i in range(len(inventory)):
         price[i] = int(price[i])
-        if form.getvalue('checkbox{i}'):
-            q = form.getvalue('input_quantity{i}')
-            print "Item: %s     Quantity: %s     Price: %s" %(inventory[i],q,price[i]*q)
+        if (form.getvalue('checkbox'+str(i)) and form.getvalue('input_quantity'+str(i))!=None):
+            q = form.getvalue('input_quantity'+str(i))
+	    q=int(q)
+            print "Item: %s     Quantity: %s     Price: %s<br>" %(inventory[i],q,price[i]*q)
             bill_total += price[i]*q
     print "Total price:  $ %s" % (bill_total)
-    print "<li class="menu-item"><a class="menu-url" href="index.html">Back to Homepage</a></li>"
-    print "<li class="menu-item"><a class="menu-url" href="catalogue.html">Back to Catalogue</a></li>"
+#    print "<li class="menu-item"><a class="menu-url" href="index.html">Back to Homepage</a></li>"
+#    print "<li class="menu-item"><a class="menu-url" href="catalogue.html">Back to Catalogue</a></li>"
     print "</body>"
     print "</html>"
     
@@ -64,7 +64,7 @@ else:
     print "</head>"
     print "<body>"
     print "You must log in to purchase items!"
-    print "<li class="menu-item"><a class="menu-url" href="catalogue.html">Back to Catalogue</a></li>"
+#    print "<li class="menu-item"><a class="menu-url" href="catalogue.html">Back to Catalogue</a></li>"
     print "</body>"
     print "</html>"
     
