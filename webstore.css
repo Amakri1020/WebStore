@@ -34,6 +34,7 @@ p {
 }
 
 .menu-url {
+	font-size: 1.3em;
 	float: left;
 	width: 6em;
 	text-decoration: none;
