@@ -3,6 +3,11 @@ h1 {
 	font-family: 'Arvo', serif;
 }
 
+h2 {
+	text-align: left;
+	font-family: 'Arvo', serif;
+}
+
 p {
 	font-family: 'Lato', serif;
 }
@@ -89,11 +94,11 @@ label {
 	font-family: 'Lato', serif;
 }
 
-.catalogue {
+/*.catalogue {
 	font-size: 1.5em;
 	color: grey;
 	font-family: 'Lato', serif;
-}
+}*/
 
 .section {
 	border: 2px solid;
