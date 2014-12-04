@@ -52,15 +52,22 @@ p {
 }
 
 #register-button {
-    -moz-appearance: button;
-    -ms-appearance: button;
-    -o-appearance: button;
-    -webkit-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    font-family: 'Lato', serif;
-    color: #000;
-    padding: 0.2em 0.4em;
+	-moz-appearance: button;
+	-ms-appearance: button;
+	-o-appearance: button;
+	-webkit-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	font-family: 'Lato', serif;
+	color: #000;
+	padding: 0.2em 0.2em;
+}
+
+label {
+	float: left;
+	width: 150px;
+	text-align: right;
+	margin-right: 0.5em;
 }
 
 .current-page {
@@ -76,12 +83,12 @@ p {
 }
 
 .section {
-    border: 2px solid;
-    /*border-radius: 20px; if we want to make it rounded*/
-    padding: 25px;
+	border: 2px solid;
+	/*border-radius: 20px; if we want to make it rounded*/
+	padding: 35px;
 
-    width: 50%;
-    margin: 0 auto;
+	width: 50%;
+	margin: 0 auto;
 }
 
 /*.round-image {
