@@ -12,21 +12,21 @@ int main(void){
 	char *password;
 	char *realName;
 	char *line, *id_Data, *password_Data;
-	FILE *member = fopen("Members.csv", "r");
-	FILE *loggedIn = fopen("LoggedIn.csv", "a");
+	FILE *member = fopen("../Members.csv", "r");
+	FILE *loggedIn = fopen("../LoggedIn.csv", "a");
 
 	contentlength = atoi(CONTENT_LENGTH);
 
 	if((postdata = malloc(sizeof(char) * contentlength + 1)) != NULL){
 		if(((fread(postdata, sizeof(char), contentlength, stdin))) == contentlength){
-			postdata[contentlength] = '\0';
+			//postdata[contentlength] = '\0';
 			id = strtok(postdata,"=");
 			id = strtok(NULL,"&");
 			password = strtok(NULL,"=");
 			password = strtok(NULL,"");
 			printf("Content-Type:text/html\n\n");
 			printf("<html>");
-			printf("%s and %s", id, password);
+			printf("%s and %d", id, strlen(password));
 			//printf("<br>");
 		}
 	}
@@ -35,15 +35,15 @@ int main(void){
 		id_Data = strtok(line,",");
 		id_Data = strtok(NULL,",");
 		password_Data = strtok(NULL,"\n");
-		printf("%s and %s", id_Data, password_Data);
+		printf("%s and %d", id_Data, strlen(password_Data));
 		printf("WHat?");	
 		if(strcmp(id_Data,id) == 0 && strcmp(password_Data,password) == 0){
-			printf("Logged in!");
+			printf("Login!");
 			printf("</html>");
 			return 0;	
-   		}
-	}
-	printf("Login failed");
+		}
+	}		
+	printf("Login fail!");
 	printf("</html>");
 
 	return 0;
