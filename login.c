@@ -26,8 +26,7 @@ int main(void){
 			password = strtok(NULL,"");
 			printf("Content-Type:text/html\n\n");
 			printf("<html>");
-			printf("%s and %d", id, strlen(password));
-			//printf("<br>");
+			printf("<head><link rel=\"stylesheet\" type=\"text/css\" href=\"../webstore.css\"><link href=\"http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext\" rel=\"stylesheet\" type=\"text/css\"><link href=\"http://fonts.googleapis.com/css?family=Arvo\" rel=\"stylesheet\" type=\"text/css\"><title>Selling McGill Buildings</title></head><body><h1 style=\"text-align:center\">Selling McGill Buildings</h1><ul id=\"menu\"><li class=\"menu-item\"><a class=\"menu-url\" href=\"index.html\">Home Page</a></li><li class=\"menu-item\"><a class=\"menu-url\" href=\"login.html\" target=\"_blank\">Login Page</a></li><li class=\"menu-item\"><a class=\"menu-url\" href=\"catalogue.html\">Catalogue</a></li></ul><hr><br>");
 		}
 	}
 
@@ -35,11 +34,11 @@ int main(void){
 		id_Data = strtok(line,",");
 		id_Data = strtok(NULL,",");
 		password_Data = strtok(NULL,"\n");
-		printf("%s and %d", id_Data, strlen(password_Data));
-		printf("WHat?");	
+	//	printf("%s and %d", id_Data, strlen(password_Data));
+	//	printf("WHat?");	
 		if(strcmp(id_Data,id) == 0 && strcmp(password_Data,password) == 0){
-			printf("Login!");
-			printf("</html>");
+			printf("<div class=\"current-page\">Login!</div>");
+			printf("</body></html>");
 			if(fseek(loggedIn,-1,SEEK_CUR)==0){
 				fprintf(loggedIn,",%s",id);
 			}
@@ -51,8 +50,8 @@ int main(void){
 			return 0;	
 		}
 	}		
-	printf("Login fail!");
-	printf("</html>");
+	printf("<div class=\"current-page\">Login fail!</div>");
+	printf("</body></html>");
 	fclose(member);
 	fclose(loggedIn);
 
