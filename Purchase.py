@@ -4,6 +4,7 @@ import os
 import cgi,cgitb
 import csv
 
+print "Content-type:text/html\n\n"
 form = cgi.FieldStorage()
 bill_total = 0
 online_users = []
@@ -49,7 +50,7 @@ if logged_in == 1:
             q = form.getvalue('input_quantity{i}')
             print "Item: %s     Quantity: %s     Price: %s" %(inventory[i],q,price[i]*q)
             bill_total += price[i]*q
-    print "Total price:  $%s" % (bill_total)
+    print "Total price:  $ %s" % (bill_total)
     print "<li class="menu-item"><a class="menu-url" href="index.html">Back to Homepage</a></li>"
     print "<li class="menu-item"><a class="menu-url" href="catalogue.html">Back to Catalogue</a></li>"
     print "</body>"
