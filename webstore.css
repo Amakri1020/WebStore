@@ -14,6 +14,7 @@ p {
 }
 
 #introduction {
+	font-size: 1.3em;
 	width: 50%;
 	margin: 0 auto;
 }
@@ -33,6 +34,7 @@ p {
 }
 
 .menu-url {
+	font-size: 1.3em;
 	float: left;
 	width: 6em;
 	text-decoration: none;
