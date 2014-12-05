@@ -7,10 +7,10 @@ import csv
 form = cgi.FieldStorage()
 bill_total = 0
 online_users = []
-logged_in = 0
+logged_in = 1
 
 ##Load all users currently logged in into online_users##
-f = open('LoggedIn.csv')
+f = open('Members.csv')
 csv_f = csv.reader(f)
 for row in csv_f:
     online_users.append(row[1])
