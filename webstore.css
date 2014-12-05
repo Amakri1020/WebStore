@@ -1,3 +1,15 @@
+.catalogue-item {
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid black ;
+	padding: 17px;
+}
+
+/*.cat-image {
+	display: inline-block;
+    margin-left: auto;
+    margin-right: auto
+}*/
 h1 {
 	text-align: center;
 	font-family: 'Arvo', serif;
@@ -16,6 +28,9 @@ p {
 	border-radius:50% 50% 50% 50%;
 	width:300px;
 	height:300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 #introduction1 {
