@@ -1,0 +1,36 @@
+0000000000000000000000000000000000000000 b0d53c000a0c9df819ef17406ba3e69222f79bc5 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417561842 -0500	clone: from https://github.com/Amakri1020/WebStore
+b0d53c000a0c9df819ef17406ba3e69222f79bc5 ba740598168b7b9af2edb435597ffa126cd26f86 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417561915 -0500	commit: early homepage draft
+ba740598168b7b9af2edb435597ffa126cd26f86 97d0e47916b55148edf0bfa0ef41ab4d483de5d9 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417562793 -0500	commit: 3 circular images
+97d0e47916b55148edf0bfa0ef41ab4d483de5d9 486ac96a17db627e00be9f37f921fc1c4bd3d200 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417562846 -0500	pull: Merge made by the 'recursive' strategy.
+486ac96a17db627e00be9f37f921fc1c4bd3d200 a02cc66d5f1c01ed1826ade6d565bcdeb688b63e Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417563157 -0500	pull: Fast-forward
+a02cc66d5f1c01ed1826ade6d565bcdeb688b63e dec09ff1d59cbe548c2d9dc5ef00a4938394c7bc Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417563876 -0500	pull: Fast-forward
+dec09ff1d59cbe548c2d9dc5ef00a4938394c7bc 7c6f963f0d0507f13fc02a5a4f3f43af254a6d40 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417564697 -0500	commit: created new pages, added menu to all w/ working links
+7c6f963f0d0507f13fc02a5a4f3f43af254a6d40 4f8c76387e947de82ffffc7d9205ee34eec153ef Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417564754 -0500	commit (merge): created new pages, added menu to all w/ working links
+4f8c76387e947de82ffffc7d9205ee34eec153ef 0827b8a88937e17232a3a58ae589c67b9ea4ac39 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417564880 -0500	commit: fixed failed merge conflict
+0827b8a88937e17232a3a58ae589c67b9ea4ac39 4e069c9259f37140e4b38273e99b619ec884ae7a Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417564962 -0500	commit: fixed failed merge conflict
+4e069c9259f37140e4b38273e99b619ec884ae7a b3aa3976e4505d4ca7c842147d79c92b6e161c00 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417633980 -0500	pull: Fast-forward
+b3aa3976e4505d4ca7c842147d79c92b6e161c00 3c561a60fd9139026d804eb12cad918d873f35b3 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417635247 -0500	commit: added csv files, login opens new tab, create account button
+3c561a60fd9139026d804eb12cad918d873f35b3 898240a31c6294b190dae73507ddac8872bc44e5 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417639627 -0500	pull: Fast-forward
+898240a31c6294b190dae73507ddac8872bc44e5 62e64f94e94fc4bea4beeae80366825d5de5afc3 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417650079 -0500	commit: purchase.py and testpurchase.py added, gave csv files some info
+62e64f94e94fc4bea4beeae80366825d5de5afc3 230d2f137060eca9d6b72f2af68d3d343c85a3be Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417650082 -0500	pull: Merge made by the 'recursive' strategy.
+230d2f137060eca9d6b72f2af68d3d343c85a3be c61377837b1986542964f61f000b01b939acfab4 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417653676 -0500	commit: first version of catalogue
+c61377837b1986542964f61f000b01b939acfab4 056b9b60c40eee02ea05068597531092c85f2c71 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417657343 -0500	commit: updated catalogue display
+056b9b60c40eee02ea05068597531092c85f2c71 91a58c8bf1b810b097c6238a83481cd7e5a35caa Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417657354 -0500	pull: Merge made by the 'recursive' strategy.
+91a58c8bf1b810b097c6238a83481cd7e5a35caa 0da79133526695bf580db2fa95d1422041ea991b Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417658824 -0500	commit: minor changes
+0da79133526695bf580db2fa95d1422041ea991b c558287af002a1b7186737d71f4232841a05e06d Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417658826 -0500	pull: Merge made by the 'recursive' strategy.
+c558287af002a1b7186737d71f4232841a05e06d 84d2a15f8bedbf12e2a557a12c3f15b172023925 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417723155 -0500	pull: Fast-forward
+84d2a15f8bedbf12e2a557a12c3f15b172023925 9d9f1fd60b2e3d0dce047c068a7cdbf8790703e5 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417724254 -0500	commit: form changes
+9d9f1fd60b2e3d0dce047c068a7cdbf8790703e5 8573b4411082f5459f6e16903ccb377767e9c9e0 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417724476 -0500	commit (merge): form changes
+8573b4411082f5459f6e16903ccb377767e9c9e0 8ead81e16f46fc9b9e325f92765bc5dfab77ba47 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417728947 -0500	commit: working bill
+8ead81e16f46fc9b9e325f92765bc5dfab77ba47 8f9f636f9b540e8165a0590a2b156fd390b06782 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417728955 -0500	pull: Merge made by the 'recursive' strategy.
+8f9f636f9b540e8165a0590a2b156fd390b06782 043bd84dc2360ac609784a9accf10af1e854d71c Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417732142 -0500	commit: working inventory update
+043bd84dc2360ac609784a9accf10af1e854d71c bbbdc208b25e0b6c655dc652236d834d6fdbc5e9 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417733717 -0500	pull: Fast-forward
+bbbdc208b25e0b6c655dc652236d834d6fdbc5e9 30f5602b5328df15ab9b3c16ef2945226dec783c Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417736012 -0500	commit: csv writes correctly
+30f5602b5328df15ab9b3c16ef2945226dec783c ccebfb47da3ea3ec1d99fc242c9e2f0387d39cad Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417736021 -0500	pull: Merge made by the 'recursive' strategy.
+ccebfb47da3ea3ec1d99fc242c9e2f0387d39cad 951e41fa7e23d650053f1d3b043078bbade5e30a Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417736088 -0500	pull: Fast-forward
+951e41fa7e23d650053f1d3b043078bbade5e30a dbf7c025f45a72acc8f499a932b76fd80d066fc6 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417821063 -0500	pull: Fast-forward
+dbf7c025f45a72acc8f499a932b76fd80d066fc6 64f9d2ccab1dd221e4f783ad4d40890ab1f4b700 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417822048 -0500	commit: fixed off by one error
+64f9d2ccab1dd221e4f783ad4d40890ab1f4b700 f4c074f88587dc7268cc6ab7dce93291ccc7baba Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417822869 -0500	commit: small changes
+f4c074f88587dc7268cc6ab7dce93291ccc7baba 118d5c31e08d22d210ff1bda2c41b469f116fae8 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417822876 -0500	pull: Merge made by the 'recursive' strategy.
+118d5c31e08d22d210ff1bda2c41b469f116fae8 9df80673e7fac628bdb96c53c754055a311a73d6 Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417824753 -0500	commit: commented python code
+9df80673e7fac628bdb96c53c754055a311a73d6 86caed7598d041bf488f516e7de2f077d2fdadcf Amakri1020 <alexander.makrigiorgos@mail.mcgill.ca> 1417824760 -0500	pull: Merge made by the 'recursive' strategy.
